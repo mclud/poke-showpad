@@ -1,0 +1,17 @@
+.pokemons-collection {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px auto;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.collection-title {
+  margin: 10px auto 50px;
+  color: white;
+  position: relative;
+  font-size: 18px;
+  text-align: left;
+}

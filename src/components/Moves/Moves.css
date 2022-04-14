@@ -1,0 +1,37 @@
+#moves {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.moves {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  row-gap: 10px;
+}
+
+.moves .move {
+  text-align: center;
+  text-transform: capitalize;
+  background: #3a4a59;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid #b4ebff;
+}
+@media screen and (max-width: 1000px) {
+  .moves {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .moves {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .moves {
+    grid-template-columns: 1fr 1fr;
+  }
+}

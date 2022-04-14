@@ -1,0 +1,51 @@
+.header-bg .searchbar-container,
+.header-bg .searchbar,
+.header-bg .searchbar input {
+  width: 100% !important;
+}
+.header-content .searchbar input {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 40px;
+}
+.header-content .search-ico {
+  width: 40px !important;
+  border-radius: 25px;
+  height: auto !important;
+  z-index: 999;
+  right: 0;
+  opacity: 1 !important;
+}
+.searchbar-container {
+  background: transparent;
+  opacity: 1;
+  margin: 6px auto;
+}
+.error {
+  color: red;
+}
+
+.poke-loader {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+.poke-loader img {
+  width: 40px;
+  height: 40px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,82 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgb(0, 0, 0, 0.2);
+  transition: all linear 0.3s;
+}
+.header:hover {
+  background: rgb(0, 0, 0, 0.7);
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 800px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 0;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.header ul img {
+  width: 30px;
+  margin-right: 5px;
+}
+.header nav li a div {
+  display: flex;
+  align-items: center;
+}
+.header nav li a p {
+  margin: 0;
+  padding: 0;
+  min-width: 75px;
+}
+.logo {
+  width: 130px;
+  margin-right: 20px !important;
+}
+.categorys {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+.brand {
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .header ul {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header nav {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 11px;
+  }
+  .header nav li a div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header nav li a p {
+    min-width: 60px;
+    font-size: 0.8rem;
+  }
+}

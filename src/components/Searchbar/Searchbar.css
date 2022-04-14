@@ -1,0 +1,48 @@
+.searchbar {
+  width: 100%;
+}
+.searchbar-container {
+  z-index: 1;
+  background-color: #252830;
+  max-width: 200px;
+  min-width: 170px;
+  position: relative;
+  opacity: 0.7;
+  transition: 0.3s ease-in all;
+  line-height: 30px;
+  width: 100%;
+}
+.searchbar-container:hover {
+  opacity: 1;
+}
+.searchbar input {
+  z-index: 2;
+  background-color: #b5b8bb;
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-left: 5px;
+  color: black;
+  padding: 5px;
+}
+.searchbar input::placeholder {
+  color: black;
+}
+.searchbar input:focus-visible {
+  outline: none;
+}
+.searchbar img {
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  object-fit: initial;
+  right: 0;
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #ffcb05;
+}

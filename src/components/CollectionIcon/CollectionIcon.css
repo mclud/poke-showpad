@@ -1,0 +1,12 @@
+.collection-icon {
+    /* position: absolute; */
+    top: -3px;
+    right: 0;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.collection-icon img {
+    width: 20px;
+    cursor: pointer;
+}
